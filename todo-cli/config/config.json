@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "leogoldi@107",
+    "database": "todo_cli_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "leogoldi@107",
+    "database": "todo_cli_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "leogoldi@107",
+    "database": "todo_cli_prod",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

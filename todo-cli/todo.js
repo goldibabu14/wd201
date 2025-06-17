@@ -1,4 +1,4 @@
-const todoList = () => {
+const todoList = (today) => {
   let all = [];
 
   const add = (todoItem) => {
@@ -59,7 +59,7 @@ const tomorrow = formattedDate(
   new Date(new Date().setDate(dateToday.getDate() + 1)),
 );
 
-const todos = todoList();
+const todos = todoList(today);
 
 todos.add({ title: "Submit assignment", dueDate: yesterday, completed: false });
 todos.add({ title: "Pay rent", dueDate: today, completed: true });
